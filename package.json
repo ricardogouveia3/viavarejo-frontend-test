@@ -1,5 +1,5 @@
 {
-  "name": "viavarejo",
+  "name": "viavarejo-frontend-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "normalize.css": "^8.0.1",
     "vue": "^2.6.6"
   },
   "devDependencies": {
