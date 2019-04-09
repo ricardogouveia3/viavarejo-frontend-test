@@ -83,6 +83,7 @@ export default {
     },
 
     addOperation(){
+      window.localStorage.setItem('operation', JSON.stringify({type: this.opType, name: this.prodName, value: this.opValue}));
       this.operations.push({type: this.opType, name: this.prodName, value: this.opValue});
       this.opType = '';
       this.prodName = '';
